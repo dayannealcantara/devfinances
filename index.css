@@ -102,3 +102,10 @@ td.entrada {
 td.saida {
   color: #e92929;
 }
+
+footer {
+  text-align: center;
+  padding: 4rem 0 2rem;
+  color: var(--color-darkBlue);
+  opacity: 0.6;
+}
