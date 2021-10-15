@@ -1,3 +1,6 @@
+:root {
+  --color-darkBlue: #363f5f;
+}
 * {
   margin: 0;
   padding: 0;
@@ -16,4 +19,49 @@ header {
 header h1 {
   color: #ffffff;
   font-weight: 100;
+}
+
+.container {
+  width: min(90vw, 800px);
+  margin: auto;
+}
+h2 {
+  margin-top: 3.2rem;
+  margin-bottom: 0.8rem;
+  color: var(--color-darkBlue);
+  font-weight: normal;
+}
+
+#balanco {
+  margin-top: -8rem;
+}
+
+#balanco h2 {
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.card {
+  background-color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+  color: var(--color-darkBlue);
+}
+
+.card h3 {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.card p {
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-top: 1rem;
+}
+
+.card.total {
+  background-color: #49aa26;
+  color: white;
 }
