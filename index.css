@@ -1,3 +1,4 @@
+/* global ======*/
 :root {
   --color-darkBlue: #363f5f;
 }
@@ -11,6 +12,31 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.container {
+  width: min(90vw, 800px);
+  margin: auto;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* title ======*/
+h2 {
+  margin-top: 3.2rem;
+  margin-bottom: 0.8rem;
+  color: var(--color-darkBlue);
+  font-weight: normal;
+}
+
+/* header ======*/
+
 header {
   background-color: #2d4a22;
   padding: 2rem 0 10rem;
@@ -21,16 +47,7 @@ header h1 {
   font-weight: 100;
 }
 
-.container {
-  width: min(90vw, 800px);
-  margin: auto;
-}
-h2 {
-  margin-top: 3.2rem;
-  margin-bottom: 0.8rem;
-  color: var(--color-darkBlue);
-  font-weight: normal;
-}
+/* main ======*/
 
 #balanco {
   margin-top: -8rem;
@@ -102,6 +119,8 @@ td.entrada {
 td.saida {
   color: #e92929;
 }
+
+/* footer ======*/
 
 footer {
   text-align: center;
