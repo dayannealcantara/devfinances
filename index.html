@@ -48,7 +48,7 @@
 
       <section id="transacao">
         <h2 class="sr-only">Transações</h2>
-        <a href="#" class="button new">+ nova transação</a>
+        <a href="#" class="button new" onclick="modal.open()">+ nova transação</a>
         <table id="data-table">
           <thead>
             <tr>
@@ -96,7 +96,7 @@
       </section>
     </main>
 
-    <div class="modal-overlay active">
+    <div class="modal-overlay">
       <div class="modal">
         <div class="form">
           <h2>Nova Transação</h2>
@@ -126,7 +126,7 @@
               <input type="date" name="data" id="data" />
             </div>
             <div class="input actions">
-              <a class="cancela" href="#">Cancelar</a>
+              <a onclick="modal.close()" class="cancela" href="#">Cancelar</a>
               <button>Salvar</button>
             </div>
           </form>
@@ -137,5 +137,7 @@
     <footer>
       <p>dev.finances$</p>
     </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>
