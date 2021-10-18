@@ -57,6 +57,19 @@ header h1 {
   color: #ffffff;
   margin-top: 0;
 }
+
+/*link-botão ======*/
+a {
+  color: #49aa26;
+  text-decoration: none;
+}
+a:hover {
+  color: #3dd705;
+}
+.button.new {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+}
 /* main - card ======*/
 
 .card {
