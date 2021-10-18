@@ -7,6 +7,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 93.75%;
+}
+
 body {
   background-color: #f0f2f5;
   font-family: "Poppins", sans-serif;
@@ -99,9 +103,15 @@ a:hover {
   background-color: #49aa26;
   color: white;
 }
+#transacao {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
 #data-table {
   width: 100%;
   border-spacing: 0 0.5rem;
+  color: #969cb3;
 }
 table th {
   background: white;
@@ -149,4 +159,16 @@ footer {
   padding: 4rem 0 2rem;
   color: var(--color-darkBlue);
   opacity: 0.6;
+}
+
+/*responsive=======*/
+@media (min-width: 800px) {
+  html {
+    font-size: 87.5%;
+  }
+  #balanco {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
 }
